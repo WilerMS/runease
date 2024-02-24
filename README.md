@@ -13,12 +13,12 @@ RunEase is a cutting-edge application designed to transform your treadmill runni
 
 ## Features 🚀
 
-- [x] Intuitive interface to control your treadmill 🕹️
-- [x] Real-time tracking of distance, speed, and calories burned 📊
-- [x] Support for multiple user profiles 🧍‍♂️🧍‍♀️
-- [x] Compatibility with a wide range of treadmill brands and models 🌍
-- [x] Secure authentication and profile management 🔒
-- [x] Advanced analytics and progress reports 📈
+- [ ] Intuitive interface to control your treadmill 🕹️
+- [ ] Real-time tracking of distance, speed, and calories burned 📊
+- [ ] Support for multiple user profiles 🧍‍♂️🧍‍♀️
+- [ ] Compatibility with a wide range of treadmill brands and models 🌍
+- [ ] Secure authentication and profile management 🔒
+- [ ] Advanced analytics and progress reports 📈
 - [ ] Social sharing options to connect with friends and community 🤝
 - [ ] Customizable workout plans tailored to your fitness goals 🏋️‍♀️
 - [ ] Integration with health apps and devices for comprehensive fitness tracking ⌚
