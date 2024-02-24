@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "platform/server"
+		},
+		{
+			"path": "platform/web"
+		},
+		{
+			"path": "cloud"
+		}
+	]
+}
