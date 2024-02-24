@@ -1,0 +1,38 @@
+{
+  "name": "runease",
+  "version": "0.0.0",
+  "description": "he Raspberry Server for the Smart Treadmill project serves as the core interface between the treadmill's hardware and its web-based application",
+  "main": "app.js",
+  "scripts": {
+    "tsc": "tsc --init",
+    "dev": "nodemon",
+    "eslint": "eslint --init",
+    "build": "tsc && tsc-alias",
+    "start": "npm run build && node dist/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.14",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.6",
+    "@types/node": "^20.8.5",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.8.8",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  },
+  "author": "Wiler Mariñez",
+  "license": "ISC"
+}
