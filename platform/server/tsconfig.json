@@ -7,9 +7,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@core/*": ["src/core/*"],
+      "@core": ["src/core/index"],
       "@api/*": ["src/api/*"],
-      "@utils/*": ["src/utils/*"]
+      "@utils": ["src/utils/index"]
     },
     "outDir": "dist", 
     "esModuleInterop": true,
