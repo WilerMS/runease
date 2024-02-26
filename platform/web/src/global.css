@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .glassmorphism {
+    background: #21222D;
+    box-shadow: 0 8px 32px 0 rgba(37, 38, 54, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid #ffffff2e;
+  }
+
+  .center {
+    @apply items-center justify-center flex;
+  }
+
+  .text-clamp {
+    font-size: clamp(1rem, 5vw, 2rem);
+  }
+}
